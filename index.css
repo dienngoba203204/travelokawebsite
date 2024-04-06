@@ -1,0 +1,843 @@
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 432px;
+}
+.cancellation-options,
+.help-center,
+.safety-information {
+  cursor: pointer;
+  position: relative;
+}
+.help-center-parent,
+.support-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.help-center-parent {
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-silver);
+}
+.support-parent {
+  position: absolute;
+  top: 66px;
+  left: 160px;
+  gap: var(--gap-13xl);
+}
+.about-us,
+.community-blog,
+.privacy-policy,
+.terms-of-service {
+  cursor: pointer;
+  position: relative;
+}
+.about-us-parent,
+.company-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-us-parent {
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-silver);
+  font-family: var(--font-sf-pro);
+}
+.company-parent {
+  position: absolute;
+  top: 66px;
+  left: 448px;
+  gap: var(--gap-13xl);
+}
+.faq,
+.get-in-touch,
+.partnerships {
+  cursor: pointer;
+  position: relative;
+}
+.contact-parent,
+.faq-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.faq-parent {
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-silver);
+  font-family: var(--font-sf-pro);
+}
+.contact-parent {
+  position: absolute;
+  top: 64px;
+  left: 736px;
+  gap: var(--gap-13xl);
+}
+.social {
+  position: relative;
+}
+.group-icon,
+.group-icon1,
+.group-icon2,
+.group-icon3 {
+  cursor: pointer;
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+.group-parent,
+.social-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.social-parent {
+  position: absolute;
+  top: 64px;
+  left: 1024px;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.frame-child {
+  width: 1120.5px;
+  border-top: 0.5px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  height: 0.5px;
+}
+.copyright-acenda-2024,
+.frame-child,
+.image-4-icon {
+  cursor: pointer;
+  position: relative;
+}
+.image-4-icon {
+  width: 278px;
+  height: 30px;
+  object-fit: cover;
+}
+.copyright-acenda-2024-parent {
+  width: 1120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.line-parent {
+  position: absolute;
+  top: 330px;
+  left: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-1000);
+}
+.footer,
+.image-7-icon {
+  position: absolute;
+  width: 1440px;
+}
+.footer {
+  top: 1396px;
+  left: 0;
+  height: 432px;
+}
+.image-7-icon {
+  top: 0;
+  left: calc(50% - 720px);
+  height: 856px;
+  object-fit: cover;
+}
+.home {
+  font-size: 18px;
+  color: rgb(252, 249, 246);
+  border: none;
+  font-family: Poppins;
+  background-color: rgb(0, 130, 176);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.destinations {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  left: 120px;
+}
+.blog,
+.contact1,
+.supports {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 291px;
+  transition: 0.7s;
+}
+.contact1,
+.supports {
+  left: 398px;
+}
+.contact1 {
+  left: 542px;
+}
+.home-parent,
+.traveloka-icon {
+  position: absolute;
+  top: 12px;
+  left: 544px;
+  width: 608px;
+  height: 11px;
+}
+.traveloka-icon {
+  top: 0;
+  left: 0;
+  width: 135px;
+  height: 43px;
+  object-fit: cover;
+}
+.group-div,
+.register-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1152px;
+  height: 43px;
+}
+.register-child {
+  border-color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  border-radius: var(--br-3xs);
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 77px;
+  height: 33px;
+}
+.register1 {
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  display: inline-block;
+  width: 68px;
+  height: 11px;
+}
+.log-in-child,
+.register {
+  position: absolute;
+  height: 33px;
+}
+.register {
+  top: 1px;
+  left: 1281px;
+  width: 77px;
+  color: var(--color-steelblue-200);
+}
+.log-in-child {
+  font-size: 16px;
+  color: white;
+  font-family: Poppins;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-steelblue-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 75px;
+}
+.log-in1 {
+  position: absolute;
+  top: 5px;
+  left: 14px;
+  display: inline-block;
+  width: 48px;
+  height: 17px;
+}
+.log-in {
+  position: absolute;
+  top: 1px;
+  left: 1196px;
+  width: 75px;
+  height: 33px;
+}
+.group-child,
+.group-container {
+  position: absolute;
+  top: 27px;
+  left: 55px;
+  width: 1358px;
+  height: 43px;
+}
+.group-child {
+  top: 75px;
+  left: 2px;
+  border-radius: 82px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 738px;
+  height: 66px;
+}
+.group-item {
+  cursor: pointer;
+  position: absolute;
+  top: 83px;
+  left: 11px;
+  border-radius: 50%;
+  background-color: #819de4;
+  width: 51px;
+  height: 51px;
+  border: none;
+  transition: 0.7s;
+}
+.group-item:hover{
+  opacity: 0.8;
+}
+.group-item:active{
+  background-color: #385dba;
+}
+.traveloka-help-center {
+  position: absolute;
+  top: 90px;
+  left: 81px;
+  display: inline-block;
+  width: 294px;
+  height: 13px;
+}
+.find-your-answers{
+  position: absolute;
+  top: 87px;
+  left: 70px;
+  display: inline-block;
+  width: 294px;
+  height: 13px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 640px;
+  height: 40px;
+}
+.traveloka-help-center {
+  top: -50px;
+  left: 0;
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--color-white);
+  width: 740px;
+  height: 100px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vuesaxlinearsearch-normal-icon {
+  cursor: pointer;
+  position: absolute;
+  height: 21.99%;
+  width: 4.73%;
+  top: 65.96%;
+  right: 92.7%;
+  bottom: 12.06%;
+  left: 2.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 400px;
+  left: 350px;
+  width: 740px;
+  height: 141px;
+  font-size: var(--font-size-5xl);
+  color: #7c6e6e;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 856px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.group-inner {
+  top: 0;
+  border-radius: 110px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 648px;
+}
+.group-inner,
+.rectangle-div,
+.rectangle-group {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.rectangle-div {
+  top: 538px;
+  background-color: #fffcfc;
+  height: 110px;
+}
+.rectangle-group {
+  top: -2px;
+  height: 648px;
+}
+.airline-policy-updates,
+.popular-topics {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  font-weight: 600;
+  display: inline-block;
+  width: 431px;
+  height: 50px;
+}
+.airline-policy-updates {
+  left: 0;
+  width: 1255px;
+  height: 38px;
+}
+.line-div {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-4-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-4 {
+  position: absolute;
+  top: 10px;
+  left: 569px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.airline-policy-updates-regardi-parent,
+.what-are-the {
+  cursor: pointer;
+  position: absolute;
+  top: 168px;
+  left: 2px;
+  width: 1255px;
+  height: 38px;
+}
+.what-are-the {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 545px;
+}
+.group-child1 {
+  position: absolute;
+  top: 71px;
+  left: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-5-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-5 {
+  position: absolute;
+  top: 19px;
+  left: 569px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how-to-check,
+.what-are-the-payment-methods-a-parent {
+  position: absolute;
+  top: 224px;
+  left: 2px;
+  width: 572.9px;
+  height: 62px;
+}
+.group-child2 {
+  position: absolute;
+  top: 36px;
+  left: 2px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-6-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-6 {
+  position: absolute;
+  top: 8px;
+  left: 571px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how-to-check-in-online-parent,
+.payment-confirmation-and {
+  cursor: pointer;
+  position: absolute;
+  top: 310px;
+  left: 0;
+  width: 1255px;
+  height: 38px;
+}
+.payment-confirmation-and {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.group-child3 {
+  position: absolute;
+  top: 36px;
+  left: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-7-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-7 {
+  position: absolute;
+  top: 10px;
+  left: 569px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how-to-check1,
+.payment-confirmation-and-verif-parent {
+  position: absolute;
+  top: 360px;
+  left: 2px;
+  width: 1255px;
+  height: 38px;
+}
+.how-to-check1 {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.group-child4 {
+  position: absolute;
+  top: 37px;
+  left: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-8-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-8 {
+  position: absolute;
+  top: 12px;
+  left: 571px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how-to-check-my-refund-status-parent,
+.traveloka-refund-promise {
+  cursor: pointer;
+  position: absolute;
+  top: 405px;
+  left: 0;
+  width: 1255px;
+  height: 38px;
+}
+.traveloka-refund-promise {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.group-child5 {
+  position: absolute;
+  top: 37px;
+  left: 2px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-9-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-9 {
+  position: absolute;
+  top: 10px;
+  left: 571px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how-to-correct,
+.traveloka-refund-promise-parent {
+  position: absolute;
+  top: 455px;
+  left: 0;
+  width: 1255px;
+  height: 38px;
+}
+.group-child6 {
+  position: absolute;
+  top: 37px;
+  left: 2px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-3-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-3 {
+  position: absolute;
+  top: 11px;
+  left: 569px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how-to-cancel,
+.how-to-correct-a-flight-passen-parent {
+  position: absolute;
+  top: 112px;
+  left: 2px;
+  width: 1255px;
+  height: 38px;
+}
+.how-to-cancel {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.group-child7 {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-2-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-2 {
+  position: absolute;
+  top: 11px;
+  left: 569px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how-to-cancel-and-refund-a-fli-parent,
+.how-to-reschedule {
+  cursor: pointer;
+  position: absolute;
+  top: 56px;
+  left: 2px;
+  width: 1255px;
+  height: 38px;
+}
+.how-to-reschedule {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.group-child8 {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 572.9px;
+  height: 1px;
+}
+.wrapper-arrow-1-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -3px;
+  top: 0;
+  width: 100%;
+  transform: scale(8.4);
+}
+.wrapper-arrow-1 {
+  position: absolute;
+  top: 11px;
+  left: 569px;
+  height: 14.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-parent1,
+.how-to-reschedule-a-flight-boo-parent {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 1255px;
+  height: 38px;
+}
+.group-parent1 {
+  top: 69px;
+  left: 0;
+  width: 1257px;
+  height: 493px;
+  font-size: var(--font-size-5xl);
+}
+.popular-topics-parent {
+  position: absolute;
+  top: 37px;
+  left: 66px;
+  width: 1257px;
+  height: 562px;
+}
+.explore-by-product {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 431px;
+  height: 50px;
+}
+.group-child9 {
+  cursor: pointer;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 378px;
+  height: 171px;
+}
+.explore-by-product-parent,
+.midder {
+  position: absolute;
+  top: 37px;
+  left: 781px;
+  width: 431px;
+  height: 251px;
+}
+.midder {
+  top: 750px;
+  left: 0;
+  width: 1440px;
+  height: 644px;
+  overflow: hidden;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.supportpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1828px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-poppins);
+}
